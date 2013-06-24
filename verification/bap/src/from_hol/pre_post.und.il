@@ -1,0 +1,40 @@
+mem_rl2:?u32 = mem:?u32;
+R0_RL2:u32 = R0:u32
+R1_RL2:u32 = R1:u32
+R2_RL2:u32 = R2:u32
+R3_RL2:u32 = R3:u32
+R4_RL2:u32 = R4:u32
+R5_RL2:u32 = R5:u32
+R6_RL2:u32 = R6:u32
+R7_RL2:u32 = R7:u32
+R8_RL2:u32 = R8:u32
+R9_RL2:u32 = R9:u32
+R10_RL2:u32 = R10:u32
+R11_RL2:u32 = R11:u32
+R12_RL2:u32 = R12:u32
+LR_RL2:u32 = LR:u32
+SP_RL2:u32 = SP:u32
+PC_RL2:u32 = PC:u32
+LR_SVC_RL2:u32 = LR_UND:u32
+SP_SVC_RL2:u32 = SP_UND:u32
+
+N_CURR__RL2:bool  = N_FLAG:bool 
+C_CURR__RL2:bool  = C_FLAG:bool 
+Z_CURR__RL2:bool  = Z_FLAG:bool 
+RV_CURR__RL2:bool  = V_FLAG:bool 
+Q_CURR__RL2:bool  = Q_FLAG:bool 
+J_CURR__RL2:bool = J_FLAG:bool
+E_CURR__RL2:bool = E_FLAG:bool
+A_CURR__RL2:bool = A_FLAG:bool
+I_CURR__RL2:bool = I_FLAG:bool
+F_CURR__RL2:bool = F_FLAG:bool
+T_CURR__RL2:bool = T_FLAG:bool
+
+M_CURR__RL2:u8 = M_FLAG:u8
+
+COP_EE_RL2:bool = COP_EE:bool
+COP_V_RL2:bool = COP_V:bool
+COP_C0_RL2:u32 = CR0:u32
+COP_C1_RL2:u32 = CR1:u32
+COP_C2_RL2:u32 = CR2:u32
+COP_C3_RL2:u32 = CR3:u32
